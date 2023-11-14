@@ -1,0 +1,166 @@
+html, body {
+    padding: 0%;
+    margin: 0%;
+    background-image: url(background.avif);
+   
+}
+header{
+    background-color: #0B3B0B;
+    color:white;
+    position: fixed;
+    top:0px;
+    height: 80px;
+    width: 100%;
+    font-size: 25px;    
+}
+
+#center, header li, header img, header ul{
+    display: inline-block;
+}
+
+#center{
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+
+
+
+header img{
+    height: 60px;
+    margin: 10px;
+}
+
+
+
+#contacts{
+    margin-left: auto;
+    margin-right: 30px;
+}
+#contacts li a:link{
+    color:white;
+    text-decoration: none;
+}
+#contacts li a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+
+
+#menu li, #contacts li a{
+    margin-left: 20px;
+}
+
+#menu li:hover, #contacts li a:hover{
+    color:yellow;
+}
+
+#menu li:active, #contacts li a:active{
+    color:lightskyblue;
+}
+
+/***************************************/
+#banner{
+   margin: 3%;
+   margin-top: 90px;
+   background-color: rgba(240, 240, 240, 0.8);
+   border: 4px #0B3B0B solid;
+   border-radius: 15px;
+   display: flex;
+}
+.banner div{
+    display: inline-block;
+   
+    margin: auto;
+   
+}
+#image img{
+    width: 350px;
+    padding-top:auto;
+    padding-bottom: auto;
+}
+#description{
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#0B3B0B;
+    font-size: large;
+}
+#banner #form {
+    border: 4px #0B3B0B solid;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: white;
+    color: #0B3B0B;
+}
+label{
+    color:#0B3B0B;
+    font-size: 20px;
+    margin: 10px;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    background-color: #0B3B0B;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+
+}
+button:hover{
+    color:yellow;
+}
+
+button:active{
+    color:lightskyblue;
+}
+
+#description button{
+    position: relative;
+    left: 70%;
+    transform: translate(-30%, 0);
+    margin-bottom: 20px;
+}
+#form button{
+    
+    margin:20px 10px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: 10px 0px;
+    border: 2px #0B3B0B solid;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
